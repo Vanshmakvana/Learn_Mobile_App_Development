@@ -1,0 +1,67 @@
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:orientation="vertical" 
+    android:layout_marginTop="30dp" 
+    > 
+ 
+    <EditText 
+        android:layout_width="300dp" 
+        android:layout_height="wrap_content" 
+        android:hint="@string/num_1" 
+        android:layout_marginTop="20dp" 
+        android:layout_gravity="center_horizontal" 
+        android:id="@+id/num1" 
+        /> 
+ 
+    <EditText 
+        android:layout_width="300dp" 
+        android:layout_height="wrap_content" 
+        android:hint="@string/num_2" 
+        android:layout_marginTop="10dp" 
+        android:layout_gravity="center_horizontal" 
+        android:id="@+id/num2" 
+        /> 
+    <Button 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20dp" 
+        android:layout_gravity="center_horizontal" 
+        android:id="@+id/add_btn" 
+        android:text="@string/add" 
+        /> 
+ 
+ 
+ 
+EXPERIMENT NO.3 : 
+MAD 
+(4351604) Develop a simple calculator app that takes user input and 
+performs basic arithmetic operation like addition, 
+subtraction, multiplication and division. 
+    <Button 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20dp" 
+        android:layout_gravity="center_horizontal" 
+        android:id="@+id/sub_btn" 
+        android:text="@string/sub" 
+        /> 
+ 
+    <Button 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20dp" 
+        android:layout_gravity="center_horizontal" 
+        android:id="@+id/div_btn" 
+        android:text="@string/div" 
+        /> 
+    <Button 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="20dp" 
+        android:layout_gravity="center_horizontal" 
+        android:id="@+id/mul_btn" 
+        android:text="@string/mul" 
+        /> 
+</LinearLayout>
