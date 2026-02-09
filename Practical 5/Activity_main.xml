@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    tools:context=".MainActivity"> 
+ 
+    <Button 
+        android:id="@+id/button" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_toRightOf="@id/button2" 
+        android:text="first" /> 
+ 
+    <Button 
+        android:id="@+id/button2" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true" 
+        android:layout_centerInParent="true" 
+        android:layout_marginTop="315dp" 
+        android:text="second" /> 
+ 
+    <Button 
+        android:id="@+id/button3" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentStart="true" 
+        android:layout_alignParentLeft="true" 
+        android:layout_alignParentBottom="true" 
+        android:layout_marginStart="11dp" 
+        android:layout_marginLeft="11dp" 
+        android:layout_marginBottom="15dp" 
+        android:text="third" /> 
+EXPERIMENT NO.5 : 
+MAD 
+(4351604) Develop an android application that uses Relative Layout 
+to arrange UI components relative to each other. 
+(Minimum 6 different attributes). 
+ 
+    <Button 
+        android:id="@+id/button4" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true" 
+        android:layout_alignParentRight="true" 
+        android:layout_marginTop="40dp" 
+        android:layout_marginEnd="12dp" 
+        android:layout_marginRight="12dp" 
+        android:text="four" /> 
+ 
+ 
+    <Button 
+        android:id="@+id/button5" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true" 
+        android:layout_alignParentRight="true" 
+        android:layout_marginTop="200dp" 
+        android:text="five" /> 
+ 
+    <Button 
+        android:id="@+id/button8" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/button2" 
+        android:layout_alignParentStart="true" 
+        android:layout_alignParentLeft="true" 
+        android:layout_marginStart="16dp" 
+        android:layout_marginLeft="16dp" 
+        android:layout_toRightOf="@id/button2" 
+        android:text="six" /> 
+</RelativeLayout> 
